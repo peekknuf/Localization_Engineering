@@ -2,7 +2,7 @@
 
 ## Overview
 
-It's a project focused on synchronizing the data from your Google Sheets account into your Gridly account AND the other way around if need be. Orchestrated with a simple cron job to run at 6 PM everyday. Fit for small and quick localization batches. For anything major consider other options.
+It's a project focused on synchronizing the data from your Google Sheets account into your Gridly account AND the other way around if need be. Orchestrated with a simple cron job to run at 6 PM everyday. Fit for small and quick localization batches. Streaming could be another option but is vastly an overkill for localization purposes. \n For anything major, large scale consider other options.
 
 This one was made purely out of challenge it supposed.
 Unless you're completely mental just use the already established:
@@ -14,7 +14,7 @@ Unless you're completely mental just use the already established:
 - **Feature 1**: Synchronization of data between Google Sheets and Gridly accounts
 - **Feature 2**: Support for multiple spreadsheets and worksheets within a single project
 - **Feature 3**: Error handling for failed synchronizations
-- **Feature 4**:Integration with the cron job system to automate syncs
+- **Feature 4**: Integration with the cron job system to automate syncs
 
 ## Usage
 

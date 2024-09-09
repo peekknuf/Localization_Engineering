@@ -25,7 +25,7 @@ To use this project, you need to install the following dependencies:
 3. [Google Sheets API client library for Python](https://developers.google.com/sheets/api/quickstart/python)
 
 ```bash
-[pip install -r requirements.txt]
+pip install -r requirements.txt
 ```
 
 Here’s how you could use this project:

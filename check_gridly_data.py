@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
+    """
+    Checking if the method even works + getting the shape of the data for further development
+    """
     api_key = os.getenv("GRIDLY_API_KEY")
     view_id = os.getenv("GAME_VIEW_ID")
     if not api_key:

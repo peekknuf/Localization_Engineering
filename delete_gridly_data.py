@@ -3,6 +3,10 @@ import logging
 from src.gridly_client import GridlyClient
 
 def main():
+    """
+    If, for whatever reason, there's a need to drop all records for a specific view in Gridly.
+    Feels unnecessary, the UI is super nice, but it's here just in case.
+    """
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
 

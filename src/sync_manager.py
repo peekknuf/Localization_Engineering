@@ -10,6 +10,9 @@ class SyncManager:
         logging.basicConfig(level=logging.INFO)
 
     def sync_sheets_to_gridly(self, spreadsheet_name: str, worksheet_name: str, view_id: str):
+        """
+        Pretty basic stuff, we get the data from the source, TRANSFORM IT for an appropriate format and send it to the destination
+        """
         try:
             self.logger.info(f"Starting sync from Sheets to Gridly: {spreadsheet_name}/{worksheet_name} -> {view_id}")
             sheets_data = self.sheets_client.get_worksheet_data(spreadsheet_name, worksheet_name)
@@ -21,6 +24,10 @@ class SyncManager:
             raise
 
     def sync_gridly_to_sheets(self, view_id: str, spreadsheet_name: str, worksheet_name: str):
+        """
+        Same as above, but in reverse direction, just in case, depends on the workflow, might be necessary, might be useless.
+        In any case it's there
+        """
         try:
             self.logger.info(f"Starting sync from Gridly to Sheets: {view_id} -> {spreadsheet_name}/{worksheet_name}")
             gridly_data = self.gridly_client.get_view_data(view_id)
@@ -35,7 +42,8 @@ class SyncManager:
     def transform_sheets_data_to_gridly(self, sheets_data):
         """
         
-        Пожалуй самый душный момент всего задания — преобразование данных из формата Sheets в формат Gridly.
+        Probably the most tedeious step, transforms data from a simple Sheets format to a complex nested Gridly format.
+        Looks pretty neat in the sync functions though
         
         """
         column_mapping = {

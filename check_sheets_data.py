@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
+    """
+    Pretty much the same logic, only for Sheets client
+    """
     credentials_file = os.getenv("GOOGLE_CREDENTIALS_FILE")
     spreadsheet_name = os.getenv("SPREADSHEET_NAME")
     worksheet_name = os.getenv("WORKSHEET_NAME2")

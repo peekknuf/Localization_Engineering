@@ -32,13 +32,13 @@ pip install -r requirements.txt
 
 Here’s how you could use this project:
 
-**Step 1**: Prepare all the necessary environment variables at the very least you need 
+1. **Step 1**: Prepare all the necessary environment variables at the very least you need 
 - `SPREADSHEET_NAME`
 - `WORKSHEET_NAME`
 - `GRIDLY_API_KEY`
 - `VIEW_ID`
-**Step 2**: Get the credentials.json from Google Sheets' API, it might be tedious and tricky and is probably the most annoying step
+2. **Step 2**: Get the credentials.json from Google Sheets' API, it might be tedious and tricky and is probably the most annoying step
 - `GOOGLE_CREDENTIALS_FILE`
-**Step 3**: Adjust the code specific to your needs, you might not want to sync just a single view(though I like the granularity of it), but instead make a huge sync of all the views with a lot of sheets, let's say once a day/week or whatever.
-**Step 4**: Use the sync python script according to your needs, briefly speaking, you'll set up the clients with your credentials, get your data one one specific SPREADSHIT and only one speicifc WORKSHEET(for the granularity purposes), process it, reformat into acceptable format for the other platform and fire up the notification if everything is successful.
+3. **Step 3**: Adjust the code specific to your needs, you might not want to sync just a single view(though I like the granularity of it), but instead make a huge sync of all the views with a lot of sheets, let's say once a day/week or whatever.
+4. **Step 4**: Use the sync python script according to your needs, briefly speaking, you'll set up the clients with your credentials, get your data one one specific SPREADSHIT and only one speicifc WORKSHEET(for the granularity purposes), process it, reformat into acceptable format for the other platform and fire up the notification if everything is successful.
 

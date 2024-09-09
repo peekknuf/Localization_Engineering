@@ -1,3 +1,3 @@
 daily cron job to run at 6 PM let's assume this is the established loc sync time.
 
-0 18 * * * cd /home/peek/code/loc_eng_test && /home/peek/code/loc_eng_test/venv/bin/python3 /       home/peek/code/loc_eng_test/GAME_TEXT_sync_gridly_to_sheets.py
+0 18 * * * /home/peek/code/loc_eng_test/venv/bin/python3 /home/peek/code/loc_eng_test/GAME_TEXT_sync_gridly_to_sheets.py

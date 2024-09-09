@@ -36,7 +36,7 @@ Here’s how you could use this project:
 - `GOOGLE_CREDENTIALS_FILE`
 3. **Step 3**: Adjust the code specific to your needs, you might not want to sync just a single view(though I like the granularity of it), but instead make a huge sync of all the views with a lot of sheets, let's say once a day/week or whatever.
 
-MIT License
+## MIT License
 
 Copyright (c) 2024 Maksym Ionutsa
 

@@ -3,6 +3,9 @@ import logging
 from src.gridly_client import GridlyClient
 from src.google_sheets_client import SheetsClient
 from src.sync_manager import SyncManager
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def main():
     logging.basicConfig(level=logging.INFO)

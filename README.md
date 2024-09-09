@@ -4,6 +4,10 @@
 
 It's a project focused on synchronizing the data from your Google Sheets account into your Gridly account AND the other way around if need be. Orchestrated with a simple cron job to run at 6 PM everyday. Fit for small and quick localization batches. For anything major consider other options.
 
+This one was made purely out of challenge it supposed.
+Unless you're completely mental just use the already established:
+[Gridly Client library for Python](https://github.com/gridly-spreadsheet-CMS/gridly-python-sdk)
+
 ## Features
 
 
@@ -19,7 +23,6 @@ To use this project, you need to install the following dependencies:
 1. [Python](https://www.python.org/) (version 3.8 or higher)
 2. [Pipenv](https://pipenv.pypa.io/) (version 20.0 or higher)
 3. [Google Sheets API client library for Python](https://developers.google.com/sheets/api/quickstart/python)
-4. [Gridly Client library for Python](https://github.com/gridly-dev/gridly-python-sdk)
 
 ```bash
 [pip install -r requirements.txt]

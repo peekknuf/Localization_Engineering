@@ -21,7 +21,7 @@ Unless you're completely mental just use the already established:
 To use this project, you need to install the following dependencies:
 
 1. [Python](https://www.python.org/) (version 3.8 or higher)
-2. [Pipenv](https://pipenv.pypa.io/) (version 20.0 or higher)
+2. [venv](https://docs.python.org/3/library/venv.html)
 3. [Google Sheets API client library for Python](https://developers.google.com/sheets/api/quickstart/python)
 
 ```bash
